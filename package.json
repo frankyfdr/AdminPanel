@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.22",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "formidable": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}

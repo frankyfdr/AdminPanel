@@ -1,0 +1,8 @@
+install mysql DB
+
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo mysql_secure_installation
+
+CREATE USER 'StoreAdmin'@'localhost' IDENTIFIED WITH mysql_native_password BY '#!MySQL!2020!@Admin';
+GRANT ALL PRIVILEGES ON * . * TO 'StoreAdmin'@'localhost';
